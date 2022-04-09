@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Snake</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="header section--center">
+      <div class="header__score-panel">0</div>
+    </div>
+    <div class="content section--center">
+      <canvas class="content__game-field" id="canvas"></canvas>
+    </div>
+    <div class="footer section--center">
+      <div class="footer__rules-panel">
+        <ol class="rules__list">
+          <li class="rules__list-item">Press <b>SPACE</b> to start game</li>
+          <li class="rules__list-item">Press <b>UP</b> <b>DOWN</b> <b>LEFT</b> <b>RIGHT</b> to control snake</li>
+        </ol>
+      </div>
+    </div>
+  </div>
+  <script type="module" src="/src/app.ts"></script>
+</body>
+
+</html>
